@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+import SoundSection from "./SoundSection";
 import Iphone from "../assets/images/iphone-14.jpg";
 import HoldingIphone from "../assets/images/iphone-hand.png";
 
@@ -25,9 +27,14 @@ const HeroSection = () => {
               </button>
             </div>
             <div>
-              <a src="" href="#" className="text-blue-500 my-3 font-medium">
+              <Link
+                to="scrollSection"
+                smooth={true}
+                duration={500}
+                className="text-blue-500 my-3 font-medium cursor-pointer"
+              >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
           <div>
