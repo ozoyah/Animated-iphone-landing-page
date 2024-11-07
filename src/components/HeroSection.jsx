@@ -22,7 +22,7 @@ const HeroSection = () => {
           </span>
           <div className="flex flex-row items-center gap-4 justify-between">
             <div>
-              <button className="bg-blue-700 text-white text-center text-2xl font-medium m-3 px-3 border-black rounded-2xl min-w-6">
+              <button className="bg-blue-700 text-white text-center text-2xl font-medium m-3 px-3 border-none rounded-2xl min-w-6">
                 Buy
               </button>
             </div>
